@@ -21,7 +21,7 @@ function adjustLayout(){
         var newX = panelWidth * index;
         $(this).css('left', newX + 'px');
         
-        var newLabel = $(this).find('.label').html();
+        var newLabel = $(this).find('.label_label').html();
         $('.timeline nav').append('<a href="#">' + newLabel + '</a>');
         
     });
