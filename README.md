@@ -1,2 +1,2 @@
 # BootstrapTest
-Learning Bootstrap!
+Learning Bootstrap and jQuery!

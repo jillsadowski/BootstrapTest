@@ -16,10 +16,10 @@
     <div class="navbar navbar-default navbar-fixed-top navbar-style">
     <div class="container">
         <ul class="nav nav-pills pull-right">
-          <li role="presentation" ><a href="#">Home</a></li>
+          <li role="presentation" ><a href="index.html">Home</a></li>
           <li role="presentation"><a href="timeline.html">Timeline</a></li>
           <li role="presentation"><a href="FAQ.HTML">FAQ</a></li>
-          <li role="presentation" class="active"><a href="quiz.html">QUIZ</a></li> 
+          <li role="presentation" class="active"><a href="quiz.html">Quiz</a></li> 
         </ul>      
     </div>
     </div>
@@ -28,23 +28,20 @@
 
 <!---Quiz --->
 
-<div class="quiz_page">
-    
-    <div class="col-sm-2">
-    <p>In this Section, fill out what you think fits you the best.</p>
-    </div>
-<form class="form-horizontal">
-
+<div class="quiz_page container">
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+            
+            <form>
+                <div class="form-group">
+                
+                <p class="help-block">Fill out our quiz.</p>
+                </div>
   <div class="form-group">
-    <label for="inputName" class="col-sm-2 control-label">Name</label>
-    <div class="col-sm-10">
-      <input type="name" class="form-control" id="inputName" placeholder="Name">
-    </div>
+    <label for="exampleInputEmail1">Name</label>
+    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="name">
   </div>
-
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
+  <div class="checkbox">
           <p>Check your Feelings:</p>
         <label>
           <input type="checkbox"> Good
@@ -60,10 +57,8 @@
           <input type="checkbox"> Okay
         </label>
       </div>
-    </div>
-  </div>
     <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
+    <div>
       <select class="form-control">
           <option>I Feel Right.</option>
           <option>I Feel Wrong.</option>
@@ -73,12 +68,10 @@
     </select>
     </div>
   </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Submit</button>
-    </div>
-  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
 </form>
+</div>
+</div> <!--row -->
 </div>
     
     

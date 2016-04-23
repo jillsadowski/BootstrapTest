@@ -8,10 +8,20 @@
 
 /*main page */
 
-.jumbotron-style {
-    padding-top: 50px;
+.main_page {
+    padding-top: 100px;
 }
 
+/*** Main Page Tips **/
+
+#tooltip_container {
+    color: #fff;
+    position: absolute;
+    padding: 20px;
+    max-width: 200px;
+    background-color: rgba(0,0,0,.85);
+    border-radius: 12px;    
+}
 
 
 
@@ -177,7 +187,7 @@ body {
 }
 
 .faq_page h1 {
-    padding: 10px
+    padding: 20px;
 }
 .faq {
     margin: 0px 15px 35px 15px;
@@ -239,7 +249,20 @@ body {
 
 
 
+/**** media queries *****/
 
+@media (min-width: 756px) {
+   
+    
+    .faq {
+    max-width: 70%;
+    margin-left: 15%;
+}
+    .faq_page h1 {
+    margin-left: 15%;
+}
+    
+}
 
 
 
